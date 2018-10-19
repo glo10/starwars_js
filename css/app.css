@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+#game{
+  width:400px;
+  height:500px;
+  background:url('../img/galaxy.jpg') 0px 0px;
+  position:relative;
+  overflow:hidden;
+}
+
+#ship{
+  width:50px;
+  height:50px;
+  background:url('../img/spaceship.png');
+  position:absolute;
+  top:450px;
+  left:175px;
+  background-size:cover;
+}
+
+.asteroid{
+  width:30px;
+  height:30px;
+  background:url('../img/asteroid.png');
+  position:absolute;
+  background-size: cover;
+}
+
+#life{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.bullet{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background-color:red;
+  position:absolute;
+  top:0;
+  left:0;
+}
